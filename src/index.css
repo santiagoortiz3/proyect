@@ -1,13 +1,64 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg,#000000,#00111d);  
+}
+
+input {
+  width: 90vw;
+  height: 2.5rem;
+  background-color: #fffefe;
+  border-radius: 20px;  
+  text-align: center;
+  font-size: 2rem;
+  color: #010101;
+  text-align: center;
+}
+
+.input-looking {
+  width: 100%;
+  height: 5rem;
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+}
+
+/* h2 {
+  margin-top: 1.2rem;
+  color: #000000;
+  font-weight: 600;
+  text-shadow: 0 0 15px #c5c5c5;
+  font-size: 2rem;
+  text-align: center;
+} */
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+}
+
+main {
+  margin-top: 2rem;
+  width: 95%;
+  height: 10%;  
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+.img-card{
+  width: 83%;
+  display: flex;
 }
